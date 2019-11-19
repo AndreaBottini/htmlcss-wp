@@ -20,7 +20,6 @@ body {
 .header-titolo {
   position: relative;
   height: 300px;
-  margin-bottom: 50px;
   background-image: url(../img/natural-header.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -45,6 +44,37 @@ body {
   color: #fff;
   text-transform: uppercase;
 }
+
+.header-sottotitolo {
+  background-color: #666666;
+  line-height: 40px;
+}
+
+.header-sottotitolo nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+.header-sottotitolo nav ul li {
+  display: inline-block;
+  padding: 0 15px;
+  background-color: #666666;
+  border-right: 1px solid #302A26;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.header-sottotitolo nav ul li:hover {
+  display: inline-block;
+  background-color: #302A26;
+}
+
 
 .footer {
   background-color: red;
