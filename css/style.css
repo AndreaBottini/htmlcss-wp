@@ -40,7 +40,7 @@ body {
 }
 
 .container-logo h1 {
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -48,6 +48,7 @@ body {
 .header-sottotitolo {
   background-color: #666666;
   line-height: 40px;
+  margin-bottom: 20px;
 }
 
 .header-sottotitolo nav ul {
@@ -60,9 +61,10 @@ body {
   padding: 0 15px;
   background-color: #666666;
   border-right: 1px solid #302A26;
+
 }
 
-a {
+.header-sottotitolo nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
@@ -70,44 +72,92 @@ a {
   font-size: 12px;
 }
 
+/*a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}*/
+
 .header-sottotitolo nav ul li:hover {
   display: inline-block;
   background-color: #302A26;
 }
-
 
 .footer {
   background-color: red;
   height: 100px;
 }
 
-.float-left {
+/*.float-left {
   float: left;
+}*/
+
+.lista {
+  list-style: none;
+  padding: 10px;
+  color: white;
+}
+
+.lista a {
+  text-decoration: none;
+  color: green;
 }
 
 .col-sinistra {
-  background-color: red;
+  float: left;
+  background-color: white;
   width: 15%;
-  border: 3px solid grey;
-  padding: 3px;
+  border-radius: 6px;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
 .col-centro {
-  background-color: yellow;
+  float: left;
+  background-color: white;
   width: 60%;
   margin: 0 5%;
-  border: 3px solid grey;
-  padding: 3px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.col-centro .titolo {
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.col-centro p{
+  line-height: 25px;
 }
 
 .col-destra {
+  float: left;
   width: 15%;
   padding: 3px;
 }
 
+.col-destra .titolo{
+  text-transform: capitalize;
+  font-size: 24px;
+  text-shadow: 2px 2px 3px;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.col-destra p {
+  line-height: 25px;
+
+}
+
 .widget {
-  background-color: lightblue;
+  background-color: white;
   margin-bottom: 24px;
-  border: 3px solid grey;
+  border-radius: 6px;
   padding: 5px;
 }
