@@ -11,20 +11,44 @@
 }
 
 body {
-background-color: lightblue;
-width: 70%;
-margin: 20px auto;
+  font-family: 'Raleway', sans-serif;
+  background-color: lightblue;
+  width: 70%;
+  margin: 20px auto;
 }
 
-.header {
-  background-color: green;
+.header-titolo {
+  position: relative;
   height: 300px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
+  background-image: url(../img/natural-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 9px solid #fff;
+}
+
+.container-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-logo img {
+  height: 200px;
+}
+
+.container-logo h1 {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .footer {
   background-color: red;
-  height: 200px;
+  height: 100px;
 }
 
 .float-left {
